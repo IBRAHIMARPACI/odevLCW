@@ -16,10 +16,6 @@ public class LcwTest extends AnaTest  {
 
     @Test
     public void LcwTesti() throws InterruptedException {
-   /* System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-    WebDriver driver = new ChromeDriver();
-    driver.manage().window().maximize();
-    driver.get("https://www.lcwaikiki.com/tr-TR/TR");
 
      WebElement grs = driver.findElement(By.cssSelector("a[class=\"header-profile header-user-section\"]"));
     grs.click();
@@ -29,7 +25,7 @@ public class LcwTest extends AnaTest  {
 
     WebElement elementt = driver.findElement(By.cssSelector("a[class=\"button bc-blue login-button-link bold\"]"));
     elementt.click();
-*/
+
     Thread.sleep(2000);
 
 
@@ -44,13 +40,14 @@ public class LcwTest extends AnaTest  {
     WebElement dahafazla = driver.findElement(By.cssSelector("a[class=\"lazy-load-button\"]"));
     dahafazla.click();
 
-        Thread.sleep(3000);
+
     Random rn = new Random();
 
     int n = 96 - 1 + 1;
     int i = rn.nextInt() % n;
     int a =  1 + i;
     WebElement random =driver.findElement(By.xpath("(//*[@class=\"row c-items\"]/div)["+String.valueOf(a)+"]"));
+        Thread.sleep(2000);
     random.click();
 
     WebElement beden;

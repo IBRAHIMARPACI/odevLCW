@@ -56,3 +56,7 @@
 2021-10-02 21:07:29,159 INFO  [Log] basarli test =LcwTesti() 
 2021-10-02 21:12:18,226 ERROR [Log] basarisiz test =LcwTesti() 
 2021-10-02 21:15:05,239 INFO  [Log] basarli test =LcwTesti() 
+2021-10-02 22:00:08,864 ERROR [Log] basarisiz test =LcwTesti() 
+2021-10-02 22:01:23,657 ERROR [Log] basarisiz test =LcwTesti() 
+2021-10-02 22:02:20,906 ERROR [Log] basarisiz test =LcwTesti() 
+2021-10-02 22:04:19,358 INFO  [Log] basarli test =LcwTesti() 
